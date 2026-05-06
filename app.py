@@ -20,13 +20,13 @@ GATILHOS_RISCO = ["viagem imediata", "ganhos altos", "sem experiência", "docume
 # --- SIDEBAR ---
 st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/2/21/IEEE_logo.svg", width=100)
 st.sidebar.title("Painel de Controle")
-st.sidebar.info("Projeto Íris: Otimização Preditiva contra o Trabalho Escravo Urbano[cite: 26, 33].")
+st.sidebar.info("Projeto Íris: Otimização Preditiva contra o Trabalho Escravo Urbano.")
 st.sidebar.metric(label="Acurácia do Modelo (LightGBM)", value="87.4%", delta="1.2%")
-st.sidebar.write("**Status da Base:** Atualizada em Abr/2026[cite: 90].")
+st.sidebar.write("**Status da Base:** Atualizada em Abr/2026.")
 
 # --- ÁREA PRINCIPAL ---
 st.title("👁️ Sistema de Triagem Preditiva Íris")
-st.write("Ferramenta interna para análise de vagas suspeitas e apoio à fiscalização do MTE[cite: 36, 54].")
+st.write("Ferramenta interna para análise de vagas suspeitas e apoio à fiscalização do MTE.")
 
 col1, col2 = st.columns([2, 1])
 
@@ -40,8 +40,8 @@ with col1:
 with col2:
     st.subheader("Critérios de Risco")
     st.write("- Cruzamento com Cadastro de Empregadores.")
-    st.write("- Detecção Semântica de Gatilhos[cite: 61].")
-    st.write("- Verificação de Redes de Dispersão[cite: 78].")
+    st.write("- Detecção Semântica de Gatilhos.")
+    st.write("- Verificação de Redes de Dispersão.")
 
 if st.button("EXECUTAR ANÁLISE PREDITIVA"):
     st.divider()
